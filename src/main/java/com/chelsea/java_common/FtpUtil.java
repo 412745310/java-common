@@ -16,6 +16,9 @@ public class FtpUtil {
 
 	private static FTPClient ftp = new FTPClient();
 
+	private FtpUtil() {
+	}
+
 	/**
 	 * 创建ftp连接
 	 * 

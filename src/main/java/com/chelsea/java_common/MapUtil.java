@@ -12,6 +12,9 @@ import java.util.Map;
  * 
  */
 public class MapUtil {
+	
+	private MapUtil(){
+	}
 
 	/**
 	 * @Description:Bean --> Map 1: 利用Introspector和PropertyDescriptor 将Bean -->

@@ -8,6 +8,9 @@ package com.chelsea.java_common;
  */
 public class StringUtil {
 
+	private StringUtil() {
+	}
+
 	/**
 	 * @Description:根据参数格式化字符串
 	 * @param character
@@ -25,5 +28,5 @@ public class StringUtil {
 		}
 		return character;
 	}
-	
+
 }

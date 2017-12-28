@@ -39,6 +39,9 @@ public class HttpRequestUtil {
 	
 	private static final Logger LOGGER = LoggerFactory.getLogger(HttpRequestUtil.class);
 	
+	private HttpRequestUtil(){
+	}
+	
 	/**
 	 * map对象转换成string
 	 * @param map
